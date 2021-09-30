@@ -4,21 +4,24 @@
     .top-pattern {
         position: absolute;
         z-index: -1;
-        left: -205%;
-        top: -75%;
-        @include mq("full") {
-            left: -18%;
-            top: -45%;
+        right: 45%;
+        bottom: 35%;
+        @include mq("medium") {
+            right: 50%;
+            bottom: 40%;
         }
     }
     .bottom-pattern {
         position: absolute;
         z-index: -1;
-        right: -205%;
-        bottom: -75%;
+        left: 45%;
+        top:  40%;
+        @include mq("medium") {
+            left: 50%;
+            top:  45%;
+        }
         @include mq("full") {
-            right: -15%;
-            bottom: -65%;
+            top:  50%;
         }
     }
 }

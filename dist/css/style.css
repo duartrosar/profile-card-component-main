@@ -94,25 +94,30 @@ h4 {
 .bg-pattern .top-pattern {
   position: absolute;
   z-index: -1;
-  left: -205%;
-  top: -75%;
+  right: 45%;
+  bottom: 35%;
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 768px) {
   .bg-pattern .top-pattern {
-    left: -18%;
-    top: -45%;
+    right: 50%;
+    bottom: 40%;
   }
 }
 .bg-pattern .bottom-pattern {
   position: absolute;
   z-index: -1;
-  right: -205%;
-  bottom: -75%;
+  left: 45%;
+  top: 40%;
+}
+@media only screen and (min-width: 768px) {
+  .bg-pattern .bottom-pattern {
+    left: 50%;
+    top: 45%;
+  }
 }
 @media only screen and (min-width: 1440px) {
   .bg-pattern .bottom-pattern {
-    right: -15%;
-    bottom: -65%;
+    top: 50%;
   }
 }
 
